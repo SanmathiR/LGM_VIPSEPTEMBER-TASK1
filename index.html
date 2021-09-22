@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/gallery1.jpg" type="image/jpg">
+  <title>Pizza Feast</title>
+  <!-- Bootstrap CDN  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+  <!-- Owl-carousel CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+  <!-- Header -->
+  <header id="header">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top mt-3" id="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">Pizza Feast</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">SERVICES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">PRICING</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">TEAM</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">BLOG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">CONTACT</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/wallpaper2.jpg" class="d-block w-100" alt="banner1">
+          <div class="carousel-caption">
+            <h1>Every pizza is a personal pizza, <br>if you try hard and believe in yourself!</h1>
+            <p>"Beauty comes in all shapes and sizes. Small, large, circle, square, thin crust, thick crust, stuffed crust, extra toppings."  </p>
+            <button>Explore more</button>
+            <button>Add to cart </button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/wallpaper3.jpg" class="d-block w-100" alt="banner2">
+          <div class="carousel-caption">
+            <h1>Every pizza is a personal pizza, <br>if you try hard and believe in yourself!</h1>
+            <p>"Beauty comes in all shapes and sizes. Small, large, circle, square, thin crust, thick crust, stuffed crust, extra toppings." </p>
+            <button>Explore more</button>
+            <button>Add to cart </button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/wallpaper4.jpg" class="d-block w-100" alt="banner3">
+          <div class="carousel-caption">
+            <h1>Every pizza is a personal pizza, <br>if you try hard and believe in yourself!</h1>
+            <p>"Beauty comes in all shapes and sizes. Small, large, circle, square, thin crust, thick crust, stuffed crust, extra toppings." </p>
+            <button>Explore more </button>
+            <button>Add to cart </button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/wallpaper5.jpg" class="d-block w-100" alt="banner4">
+          <div class="carousel-caption">
+            <h1>Every pizza is a personal pizza, <br>if you try hard and believe in yourself!</h1>
+            <p>"Beauty comes in all shapes and sizes. Small, large, circle, square, thin crust, thick crust, stuffed crust, extra toppings." </p>
+            <button>Explore more </button>
+            <button>Add to cart </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main>
+    <!-- Home -->
+    <section id="home">
+      <div class="container-fluid p-5">
+        <div class="row">
+          <div class="col-md-8 col-12 mx-auto mt-3">
+            <h1 class="text-center heading my-3">Welcome to Pizza Feast!!</h1>
+            <div class="row mt-5 mx-auto d-flex justify-content-between align-items-center first_row pt-5">
+              <div class="col-md-8 col-12 d-flex justify-content-center">
+                <p>
+                  We are one of the finest artisan Italian gourmet brands in the country offering a wide range of hand-crafted and exotic dips, sauces, cheese and much more. With emphasis on quality and sophistication, Acasa is a brand that makes one feel their best even when at home.
+                  We believe in using the freshest and best ingredients for the best results.Our secret recipes are family heirlooms and guarded secrets which are passed down by generations.
+                </p>
+
+              </div>
+              <div class="col-md-3 col-13">
+                <img src="images/pizza gif.gif" height="250px" srcset="">
+              </div>
+            </div>
+            <div class="row mt-5 d-flex justify-content-between align-items-center second_row mx-auto text-center">
+              <div class="col-md-3 col-10 d-flex justify-content-center align-items-center flex-column mx-auto mt-2">
+                <div class="icon">
+                  <i class="fas fa-bell"></i>
+                </div>
+                <h5>Notification</h5>
+                <p>India's most loved Pizza Brand- Pizzafeast is now tied with Swiggy and Zomato as their delivery partners along with payment partners Paytm & Google pay. For more online orders keep notifications on.</p>
+                <button>Click ok</button>
+              </div>
+              <div class="col-md-3 col-10 d-flex justify-content-center align-items-center flex-column mx-auto mt-2">
+                <div class="icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <h5>Subscribe us</h5>
+                <p>Pizza is not just a dish, it’s an emotion felt by all who love it. The feel-good feeling in every bite of pizza cannot be compared. Subscribe to our channel to get more recipes and prepare more delicious food with healthy tips.</p>
+                <button>Click ok</button>
+              </div>
+              <div class="col-md-3 col-10 d-flex justify-content-center align-items-center flex-column mx-auto mt-2">
+                <div class="icon">
+                  <i class="fas fa-receipt"></i>
+                </div>
+                <h5>Offers Available</h5>
+                <p>Do Signup and you will receive notifications about Pizzafeast's Promotions and Discount Codes.
+                  When you do, you can choose an offer, if there is a Coupon Code attached to it, buy your favourite pizza.</p>
+                <button>click ok</button>
+              </div>
+            </div>
+            <br>
+            <hr style="background: yellowgreen; height: 0.2rem !important; margin-top: 5rem !important;">
+          </div>
+        </div>
+    </section>
+
+    <!-- services -->
+    <section class="services" id="services">
+      <div class="box-container">
+        <div class="row pb-5">
+          <div class="col-md-12 col-12">
+            <h1 class="heading">Services we offer</h1>
+             <div class="row mt-8">
+              <div class="box">
+                <img src="images/mexican pizza.jpg" alt="">
+                <div class="content">
+                  <h5>mexican pizza</h5>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum praesentium odit eveniet</p>
+                  <button>Search more</button>
+                </div>
+              </div>
+              <div class="box">
+                <img src="images/5pepper.jpg" alt="">
+                <div class="content">
+                  <h5>5pepper</h5>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum praesentium odit eveniet</p>
+                  <button>Search more</button>
+                </div>
+              </div>
+              <div class="box">
+                <img src="images/country special.jpg" alt="">
+                <div class="content">
+                  <h5>country special</h5>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum praesentium odit eveniet</p>
+                  <button>Search more</button>
+                </div>
+              </div>
+              <div class="box">
+                <img src="images/farm house.jpg" alt="">
+                <div class="content">
+                  <h5>farm house</h5>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum praesentium odit eveniet</p>
+                  <button>Search more</button>
+                </div>
+              </div>
+              <div class="box">
+                <img src="images/dulexe pizza.jpg" alt="">
+                <div class="content">
+                  <h5>dulexe pizza</h5>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum praesentium odit eveniet</p>
+                  <button>Search more</button>
+                </div>
+              </div>
+              <div class="box">
+                <img src="images/chicken pizza.jpg" alt="">
+                <div class="content">
+                  <h5>chicken fiesta</h5>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum praesentium odit eveniet</p>
+                  <button>Search more</button>
+                </div>
+              </div>
+             </div> 
+          </div>    
+       </div>       
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="section-plans" id="pricing">
+      <div class="u-center-text u-margin-bottom-big">
+        <h2 class="heading-secondary">
+          Family pack price
+        </h2>
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-3">
+          <div class="card">
+            <div class="card__side card__side--front-1">
+              <div class="card__title card__title--1">
+                <i class="fas fa-cart-arrow-down"></i>
+                <h4 class="card__heading">Basic</h4>
+              </div>
+
+              <div class="card__details">
+                <ul>
+                  <li>Pizza Mania</li>
+                  <li>mexican green wave</li>
+                  <li>italian cheese</li>
+                  <li>choco lava</li>
+                  <li>garlic breadsticks</li>
+                  <li>pepsi/coke/sprite</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card__side card__side--back card__side--back-1">
+              <div class="card__cta">
+                <div class="card__price-box">
+                  <p class="card__price-only">Only</p>
+                  <p class="card__price-value">Rs.5000*</p>
+                </div>
+                <a href="#popup" class="btn btn--white">Select</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-1-of-3">
+          <div class="card">
+            <div class="card__side card__side--front-2">
+              <div class="card__title card__title--2">
+                <i class="fas fa-cart-plus"></i>
+                <h4 class="card__heading">Premium</h4>
+              </div>
+
+              <div class="card__details">
+                <ul>
+                  <li>Includes Basic Package Features</li>
+                  <li>Saucy BBQ Stuffed Crust</li>
+                  <li>Calzone Pockets</li>
+                  <li>Pasta Italian White</li>
+                  <li>chicken wings</li>
+                  <li>Butterscotch mousse cake</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card__side card__side--back card__side--back-2">
+              <div class="card__cta">
+                <div class="card__price-box">
+                  <p class="card__price-only">Only</p>
+                  <p class="card__price-value">Rs.10000*</p>
+                </div>
+                <a href="#popup" class="btn btn--white">Select</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-1-of-3">
+          <div class="card">
+            <div class="card__side card__side--front-3">
+              <div class="card__title card__title--3">
+                <i class="fas fa-dolly"></i>
+                <h4 class="card__heading">Pro plan</h4>
+              </div>
+
+              <div class="card__details">
+                <ul>
+                  <li>Includes Premium Plan Features</li>
+                  <li>Taco Mexican</li>
+                  <li>Spicy Baked Chicken</li>
+                  <li>Roasted Pepper Dip</li>
+                  <li>Chessy Bread</li>
+                  <li>Italian Sausage Marinara</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card__side card__side--back card__side--back-3">
+              <div class="card__cta">
+                <div class="card__price-box">
+                  <p class="card__price-only">Only</p>
+                  <p class="card__price-value">Rs.15000*</p>
+                </div>
+                <a href="#popup" class="btn btn--white">Select</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video Material -->
+    <section id="video_projects">
+      <div class="container-fluid py-5" style="background: #82589F;">
+        <div class="row">
+          <div class="col-md-12 col-11 mx-auto">
+            <h1 class="heading" style="color: #fff;">OUR VIDEOS</h1>
+          </div>
+        </div>
+        <div class="marquee-wrapper">
+          <div class="marquee">
+            <iframe width="700" height="300" style="margin-right: 2%;" src="https://www.youtube.com/embed/sv3TXMSv6Lw">
+            </iframe>
+            <iframe width="700" height="300" style="margin-right: 2%;" src="https://www.youtube.com/embed/L3f7WnO0MvQ">
+            </iframe>
+            <iframe width="700" height="300" style="margin-right: 2%;" src="https://www.youtube.com/embed/PK0czgdbHoY">
+            </iframe>
+            <iframe width="700" height="300" style="margin-right: 2%;" src="https://www.youtube.com/embed/vw20Ec3bZpo">
+            </iframe>
+            <iframe width="700" height="300" style="margin-right: 2%;" src="https://www.youtube.com/embed/ecQclFMaHbc">
+            </iframe>
+            <iframe width="700" height="300" style="margin-right: 2%;" src="https://www.youtube.com/embed/B05Vf25Cmdc">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pizzafeast Team -->
+    <section id="team">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-8 col-11 mx-auto">
+            <h1 class="heading">OUR TEAMS</h1>
+            <div class="row mt-5">
+              <div class="col-md-4 col-11 mx-auto text-center card_container">
+                <img src="images/chef2.jpg" alt="Member1" class="img-fluid image">
+                <div class="social_icons">
+                  <i class="fab fa-facebook"></i>
+                  <i class="fab fa-instagram"></i>
+                  <i class="fab fa-twitter"></i>
+                </div>
+                <h5>Thomas Keller</h5>
+                <p>Executive chef </p>
+              </div>
+              <div class="col-md-4 col-11 mx-auto text-center card_container">
+                <img src="images/chef1.jpg" alt="Member2" class="img-fluid image">
+                <div class="social_icons">
+                  <i class="fab fa-facebook"></i>
+                  <i class="fab fa-instagram"></i>
+                  <i class="fab fa-twitter"></i>
+                </div>
+                <h5>Justin Wilson</h5>
+                <p>Head chef</p>
+              </div>
+              <div class="col-md-4 col-11 mx-auto text-center card_container">
+                <img src="images/chef3.jpg" alt="Member3" class="img-fluid image">
+                <div class="social_icons">
+                  <i class="fab fa-facebook"></i>
+                  <i class="fab fa-instagram"></i>
+                  <i class="fab fa-twitter"></i>
+                </div>
+                <h5>Ina Garten</h5>
+                <p>Deputy chef</p>
+              </div>
+              <div class="col-md-4 col-11 mx-auto text-center card_container">
+                <img src="images/chef4.jpg" alt="Member4" class="img-fluid image">
+                <div class="social_icons">
+                  <i class="fab fa-facebook"></i>
+                  <i class="fab fa-instagram"></i>
+                  <i class="fab fa-twitter"></i>
+                </div>
+                <h5>Edna Lewis</h5>
+                <p>Station chef</p>
+              </div>
+              <div class="col-md-4 col-11 mx-auto text-center card_container">
+                <img src="images/chef5.jpg" alt="Member5" class="img-fluid image">
+                <div class="social_icons">
+                  <i class="fab fa-facebook"></i>
+                  <i class="fab fa-instagram"></i>
+                  <i class="fab fa-twitter"></i>
+                </div>
+                <h5>Sanjeev Kapoor</h5>
+                <p>Junior chef</p>
+              </div>
+              <div class="col-md-4 col-11 mx-auto text-center card_container">
+                <img src="images/chef6.jpg" alt="Member6" class="img-fluid image">
+                <div class="social_icons">
+                  <i class="fab fa-facebook"></i>
+                  <i class="fab fa-instagram"></i>
+                  <i class="fab fa-twitter"></i>
+                </div>
+                <h5>Elena Clare</h5>
+                <p>Purchasing manager</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-----Newsletter signup-----> 
+    <section id="newsletter">
+      <div class="container-fluid py-5">
+        <div class="row">
+          <div class="col-md-12 col-12 mx-auto">
+            <h1 class="heading" style="color: #66BFBF;">Newsletter Signup</h1>
+            <div class="input_signup">
+              <input type="text" placeholder="Enter your email id"><button>Signup</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+     
+
+    <!-- Life at Pizzafeast-->
+    <div class="" id="life_section">
+       
+      <h2 class="heading" style="text-align: centre">Our Gallery</h2>
+      <br><br>
+  
+      <img id=featured src="images/wallpaper1.jpg" class="centre">
+      <br>
+  
+      <div id="slide-wrapper">
+        <img id="slideLeft" class="arrow" src="images/arrow-left.png">
+  
+        <div id="slider">
+          <img class="thumbnail active" src="images/wallpaper1.jpg">
+          <img class="thumbnail" src="images/gallery1.jpg">
+          <img class="thumbnail" src="images/gallery2.jpg">
+          <img class="thumbnail" src="images/gallery3.jpg">
+          <img class="thumbnail" src="images/gallery4.jpg">
+          <img class="thumbnail" src="images/gallery6.jpg">
+          <img class="thumbnail" src="images/gallery7.jpg">      
+        </div>
+  
+        <img id="slideRight" class="arrow" src="images/arrow-right.png">
+      </div>
+  
+  
+      <br><br>
+  
+    </div>
+
+    <!-- Blog Section -->
+    <section id="blog">
+      <div class="container-fluid py-5">
+        <div class="row">
+          <div class="col-md-8 col-11 mx-auto">
+            <h1 class="heading">Blog</h1>
+            <div class="row mt-5">
+              <div class="col-md-4 col-11 mx-auto text-center mt-3">
+                <img src="images/customer1.jpg" alt="Member1" class="img-fluid image">
+                <h5>Rachael</h5>
+                <p>18 September, 2021</p>
+                <p style="color: #000;">You’ll find this unique approach to making pizza in a string of towns. Pizza Feast is the center of this exciting take on a classic dish, but several small towns have at least one restaurant or pizzeria that serves it.Delivery options are also available!</p>
+                <button>Read More</button>
+              </div>
+              <div class="col-md-4 col-11 mx-auto text-center mt-3">
+                <img src="images/customer2.jpg" alt="Member1" class="img-fluid image">
+                <h5>Jamie Olive</h5>
+                <p>18 September, 2021</p>
+                <p style="color: #000;">The Pizza Feast goes through two baking processes. It gets cooked on a sheet pan with some homemade tomato sauce at first to help the crust start to rise. Then it gets pulled out to receive more sauce and a touch of cheese.</p>
+                <button>Read More</button>
+              </div>
+              <div class="col-md-4 col-11 mx-auto text-center mt-3">
+                <img src="images/customer3.jpg" alt="Member1" class="img-fluid image">
+                <h5>Daenarys</h5>
+                <p>18 September, 2021</p>
+                <p style="color: #000;">An authentic pizza feast has almost all of the toppings placed on the pie after it comes out of the oven. A combination of room temperature and chilled options create the unique hot-cold bites that you receive with this approach.</p>
+                <button>Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container-fluid py-5">
+        <div class="row">
+          <div class="col-md-12 col-12 mx-auto">
+            <div class="row">
+              <div class="col-md-6 col-12 mx-auto">
+                <div class="mapouter">
+                  <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no"
+                      marginheight="0" marginwidth="0"
+                      src= "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4158.1255562520555!2d77.52083168918247!3d12.966662548954032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3dd68a3a1ffb%3A0x0!2zMTLCsDU4JzAwLjEiTiA3N8KwMzEnMjIuNiJF!5e0!3m2!1sen!2sin!4v1631951795160!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                      <a href="https://www.fridaynightfunkin.net/friday-night-funkin-mods-fnf-play-online/">Friday Night
+                      Funkin Mods</a></div>
+                </div>
+              </div>
+              <div class="col-md-6 col-12 mx-auto contact_form p-3">
+                <h1 class="heading">Contact</h1>
+                <form>
+                  <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="email" class="form-control" id="name">
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" class="form-control" id="email">
+                  </div>
+                  <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" class="form-control" id="subject">
+                  </div>
+                  <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" cols="30" rows="10"></textarea>
+                  </div>
+                  <button>Submit</button>
+                </form>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- Footer -->
+  <footer>
+    <section id="footer" style="background: #dfe6e9;">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-10 col-11 mx-auto">
+            <div class="row text-center">
+              <div class="col-md-4 col-11">
+                <h5>Cafe Address</h5>
+                <ul>
+                  <li>Pizza Feast</li>
+                  <li>Near vijaynagar, chandralayout </li>
+                  <li>Bangalore</li>
+                </ul>
+              </div>
+              <div class="col-md-4 col-11">
+                <h5>Follow US</h5>
+                <ul>
+                  <li><i class="fab fa-facebook fa-lg"></i></li>
+                  <li><i class="fab fa-linkedin fa-lg"></i></li>
+                  <li><i class="fab fa-twitter-square fa-lg"></i></li>
+                </ul>
+              </div>
+              <div class="col-md-2 col-11">
+                <h5>Contact US</h5>
+                <ul>
+                  <li>+91-1234567895</li>
+                  <li>pizzafeast@gmail.com</li>
+                  <li>pizzafeast@skype</li>
+                  <li>enquiry.office@pizzafeast.com</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+  <!-- Bootstrap CDN  -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
+  <!-- Owl Carousel -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Custom Js -->
+  <script src="javascript/index.js"></script>
+</body>
+
+</html>
